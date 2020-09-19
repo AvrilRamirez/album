@@ -1,22 +1,3 @@
-body {
-  margin: 0px;
-  font-family: "Mulish", sans-serif;
-}
-
-.header {
-  background-color: #1e5f74;
-  width: calc(100% - 60px);
-  height: 90px;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  padding: 0 30px;
-}
-
-.header__img {
-  width: 150px;
-}
-
 .registro {
   background: linear-gradient(#1e5f74, #133b5c, #1d2d50);
   display: flex;
@@ -44,39 +25,6 @@ body {
   flex-direction: column;
 }
 
-.input {
-  background-color: transparent;
-  border-left: 0px;
-  border-top: 0px;
-  border-right: 0px;
-  border-bottom: 2px solid white;
-  font-size: 16px;
-  font-family: "Mulish", sans-serif;
-  margin-bottom: 20px;
-  padding: 0px 20px;
-  outline: none;
-  height: 80px;
-}
-
-::placeholder {
-  color: white;
-}
-
-.button {
-  background-color: rgba(255, 255, 255, 0.1);
-  border: none;
-  border-radius: 25px;
-  color: white;
-  cursor: pointer;
-  font-size: 16px;
-  font-weight: bold;
-  font-family: "Mulish", sans-serif;
-  height: 50px;
-  letter-spacing: 1px;
-  margin: 20px 0px;
-  outline: none;
-}
-
 .registro__container--social-media > div {
   display: flex;
   align-items: center;
@@ -99,25 +47,5 @@ body {
 }
 
 .registro__container--a:hover {
-  text-decoration: underline;
-}
-
-.footer {
-  display: flex;
-  align-items: center;
-  height: 100px;
-  width: 100%;
-  background-color: #1d2d50;
-}
-
-.footer a {
-  color: white;
-  cursor: pointer;
-  font-size: 14px;
-  padding-left: 30px;
-  text-decoration: none;
-}
-
-.footer a:hover {
   text-decoration: underline;
 }
