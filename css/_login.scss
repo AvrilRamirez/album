@@ -1,5 +1,8 @@
+@import "colors";
+
+
 .login {
-  background: linear-gradient(#1e5f74, #133b5c, #1d2d50);
+  background: linear-gradient($headerColor, $gradientColor, $footerColor);
   display: flex;
   align-items: center;
   justify-content: center;

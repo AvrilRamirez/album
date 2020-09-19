@@ -1,9 +1,12 @@
+@import "colors";
+
+
 .main {
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  background: linear-gradient(#1e5f74, #133b5c, #1d2d50);
+  background: linear-gradient($headerColor, $gradientColor, $footerColor);
 }
 .search {
   height: 300px;
